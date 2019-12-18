@@ -2,13 +2,21 @@ body {
     margin: 30px;
 }
 #imageId {
-    width: 400px;
+    position: relative;
+    width: 30%;
     height: 300px;
+    float: left;
+    margin: 5%;
     
     
 }
 .desc {
-    width: 50%;
+    width: 500px;
+    margin-left: 20px;
+}
+div a {
+    width: 40%;
+    
 }
 
 .header {
@@ -18,8 +26,7 @@ body {
 }
 .section {
     /*position: relative;*/
-    display: inline-block;
-    
+    display: inline-block;    
     left: 10px;
 }
 #nav {
