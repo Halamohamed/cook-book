@@ -32,11 +32,14 @@ div a {
 #nav {
     border:2px solid burlywood ;
     font: 20px sans-serif;
+    padding: 5px;
     margin-bottom: 20px;
 }
 #nav a {
     border: 1px solid lightblue;
-    background-color: lightcoral;
+    background-color: rgb(31, 95, 192);
+    color: white;
+    text-decoration: none;
     
 }
 .footer {
