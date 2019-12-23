@@ -35,10 +35,22 @@ h2 {
     padding: 5px;
     margin-bottom: 20px;
 }
+#nav li {
+    display: inline;
+    text-decoration: none;
+    overflow: hidden;
+}
 #nav a {
     border: 1px solid lightblue;
     background-color: rgb(31, 95, 192);
-    color: white;
+    color: wheat;
+    text-decoration: none;
+    
+}
+#nav a:hover {
+    border: 2px solid lightblue;
+    background-color: rgb(134, 15, 70);
+    color: rgb(179, 245, 234);
     text-decoration: none;
     
 }
