@@ -23,6 +23,7 @@ h2 {
     color: blue;
     background-color: burlywood;
     padding: 20px;
+    font-weight: bold;
 }
 .section {
     /*position: relative;*/
@@ -61,8 +62,17 @@ h2 {
     color: blue;
     background-color: burlywood;
     padding: 5px 5px;
-
     
+}
+.contakt {
+    background: rgb(200, 227, 236);
+    margin: 8% 8%;
+    text-align: center;
+}
+.contakt label {
+    color: blue;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
